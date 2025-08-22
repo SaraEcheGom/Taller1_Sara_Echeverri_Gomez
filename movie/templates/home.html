@@ -21,6 +21,22 @@
 
         <p>Searching for {{ searchTerm }}</p>
 
+       <div class="card" style="width: 18rem;">
+  <img src="https://play-lh.googleusercontent.com/AX7s9Y3EyhUCRwp_OUymBZhno9CFNl_h9KfLj64bHzQ1wBT-1HbI27ovhkL9RFsq0RRX52vAs7oALlLf8RU=w240-h480-rw" class="card-img-top" alt="Harry Potter y la piedra filosofal">
+  <div class="card-body">
+    <h5 class="card-title">Harry Potter y la piedra filosofal</h5>
+    <p class="card-text">
+      La primera película de la saga donde Harry descubre que es un mago 
+      y comienza su aventura en Hogwarts.
+    </p>
+    <a href="https://www.hbomax.com/co/es/movies/harry-potter-y-la-piedra-filosofal/4b990c5d-38ab-4daf-8092-2617cbc6d062" target="_blank" class="btn btn-primary">
+      Ver en HBO Max
+    </a>
+  </div>
+</div>
+
+
+
         {% for movie in movies %}
             <h2>{{ movie.title }}</h2>
             <h3>{{ movie.description }}</h3>
